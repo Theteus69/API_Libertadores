@@ -62,6 +62,9 @@ namespace ApiLibertadoresHAS.Controllers
                 if (novoJogador.Numero >= 100)
                     return BadRequest("Número da camisa não pode ser maior/igual a 100.");
 
+                novoJogador.Usuario = await _context.TB_USUARIOS
+                    .FirstOrDefaultAsync(usuario => usuario.Id == User.UsuarioId());
+
                 await _context.TB_JOGADORES.AddAsync(novoJogador);
                 await _context.SaveChangesAsync();
 

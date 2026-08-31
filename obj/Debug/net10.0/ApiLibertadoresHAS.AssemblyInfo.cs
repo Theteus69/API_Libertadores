@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLibertadoresHAS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f48b2a9cc9b331a66d44e6a1444f7e41a3fd08a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+074638e2ca1bc2e7f6f3bd61a1845b04fa10fd6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLibertadoresHAS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLibertadoresHAS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
