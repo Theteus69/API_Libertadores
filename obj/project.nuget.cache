@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "3ckNBzfIZ2Q=",
+  "success": false,
+  "projectFilePath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+  "expectedPackageFiles": [
+    "D:\\NUGET_PACKAGES\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.11\\microsoft.aspnetcore.authentication.jwtbearer.10.0.11.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.entityframeworkcore.design\\10.0.5\\microsoft.entityframeworkcore.design.10.0.5.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.entityframeworkcore.sqlserver\\10.0.5\\microsoft.entityframeworkcore.sqlserver.10.0.5.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.identitymodel.abstractions\\8.22.0\\microsoft.identitymodel.abstractions.8.22.0.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.identitymodel.logging\\8.22.0\\microsoft.identitymodel.logging.8.22.0.nupkg.sha512",
+    "D:\\NUGET_PACKAGES\\microsoft.identitymodel.tokens\\8.22.0\\microsoft.identitymodel.tokens.8.22.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.AspNetCore.Authentication.JwtBearer 10.0.11 não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O pacote Microsoft.AspNetCore.Authentication.JwtBearer 10.0.11 dá suporte a: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "filePath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.EntityFrameworkCore.Design 10.0.5 não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O pacote Microsoft.EntityFrameworkCore.Design 10.0.5 dá suporte a: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "filePath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "O pacote Microsoft.EntityFrameworkCore.SqlServer 10.0.5 não é compatível com net9.0 (.NETCoreApp,Version=v9.0). O pacote Microsoft.EntityFrameworkCore.SqlServer 10.0.5 dá suporte a: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "filePath": "D:\\peixe-setecentas\\PAM2\\API_Libertadores\\ApiLibertadoresHAS.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
