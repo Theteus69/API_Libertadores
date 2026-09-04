@@ -130,6 +130,26 @@ namespace ApiLibertadoresHAS.Controllers
             }
         }
 
+        [HttpGet("GetByPerfil")]
+        public async Task<IActionResult> GetByPerfilAsync()
+        {
+            try
+            {
+                List<Jogador> lista = new List<Jogador>();
+
+                if (User.UsuarioPerfil() == "Admin")
+                    lista = await _context.TB_JOGADORES.ToListAsync();
+                else
+                    lista = await _context.TB_JOGADORES
+                    .Where(p => p.UsuarioId == User.UsuarioId()).ToListAsync();
+                return Ok(lista);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message + " - " + ex.InnerException);
+            }
+        }
+
 
 
     }
